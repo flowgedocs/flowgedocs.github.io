@@ -9,7 +9,7 @@ You don't especially need flowge, for a static program. For exemple, if you writ
 print((string) 1 + 1);
 ```
 
-Because the optimizer of Flowge will done the process of nd, 2turning 1 + 1 into 2 a into a string.
+Because the optimizer of Flowge will done the process of turning 1 + 1 into 2 a into a string.
 So basically for this kind of "static" program which never change, Flowge don't really make sens, because all the process will be do while the compilation.
 
 We can understand that all is "static" or depending on the code, will be do as much close before become out the process.
